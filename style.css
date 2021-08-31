@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.stop{
+    background-color: rgb(54, 37, 37);
+    height: 50px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    background-color: green;
+}
+
+.main_screen{
+    background-color: pink;
+    width: 70%;
+    height: 100%;
+}
+
+.sub_screens{
+    background-color: blue;
+    width: 30%;
+    height: 100%;
+}
+
+.sub_screen{
+    margin: 10px;
+    width: 100%;
+    height: 50%;
+    background-color: olive;
+}
