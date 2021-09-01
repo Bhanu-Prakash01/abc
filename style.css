@@ -1,48 +1,65 @@
-body{
+*{
     color: white;
-    padding: 0;
     margin: 0;
-    font-size: 24px;
+    padding: 0;
 }
-
-.header{
-    width: 100vw;
+.navbar{
     height: 50px;
     background-color: red;
-}
-
-.footer{
-    width: 100vw;
-    height: 50px;
-    background-color: red;
-}
-
-.main{
-    height: 600px;
-    background-color: green;
     display: flex;
 }
-
-.image{
-    height: 200px;
-    width: 250px;
-    background-color: wheat;
-}
-
-.left{
+.header{
     height: 100%;
     width: 30%;
-    background-color: orange;
+    background-color: black;
+
 }
 
-
-.right{
-
+.menu{
     height: 100%;
     width: 70%;
     background-color: orchid;
+}
 
+.hero{
+    background-color: purple;
+    height: 300px;
+}
+
+.mainbody{
+    background-color: red;
+    height: 300px;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+}
+
+.footer{
+    height: 60px;
+    background-color: royalblue;
+}
+
+.main{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(140, 0, 255);
+}
+
+.center{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+}
+
+.right{
+    height: 100%;
+    width: 25%;
+    background-color: orangered;
+}
+.image{
+    background-color: olivedrab;
+    height: 50%;
+}
+
+.extra{
+    background-color: pink;
+    height: 50%;
 }
