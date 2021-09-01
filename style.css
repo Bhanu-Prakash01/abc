@@ -1,34 +1,48 @@
-*{
+body{
+    color: white;
     padding: 0;
     margin: 0;
+    font-size: 24px;
 }
 
-.stop{
-    background-color: rgb(54, 37, 37);
+.header{
+    width: 100vw;
     height: 50px;
+    background-color: red;
+}
+
+.footer{
+    width: 100vw;
+    height: 50px;
+    background-color: red;
 }
 
 .main{
-    height: 100vh;
-    display: flex;
+    height: 600px;
     background-color: green;
+    display: flex;
 }
 
-.main_screen{
-    background-color: pink;
-    width: 70%;
+.image{
+    height: 200px;
+    width: 250px;
+    background-color: wheat;
+}
+
+.left{
     height: 100%;
-}
-
-.sub_screens{
-    background-color: blue;
     width: 30%;
-    height: 100%;
+    background-color: orange;
 }
 
-.sub_screen{
-    margin: 10px;
-    width: 100%;
-    height: 50%;
-    background-color: olive;
+
+.right{
+
+    height: 100%;
+    width: 70%;
+    background-color: orchid;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
